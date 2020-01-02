@@ -1,0 +1,11 @@
+zs-base {
+  opacity: 0;
+  height: 100%;
+}
+
+.zs-page--loaded {
+  zs-base {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+}
